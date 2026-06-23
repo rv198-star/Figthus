@@ -18,16 +18,15 @@
 
 当前基准图：
 
-![烂笔头和破橡皮设定稿](../../assets/pencil-eraser-ip-design/lanbitou-poxiangpi-reference-v1.png)
+![烂笔头和破橡皮设定稿](../../assets/pencil-eraser-ip-design/lanbitou-poxiangpi-reference-v2.png)
 
-原始生成版本：
+参考版本：
 
 - `assets/pencil-eraser-ip-design/03-character-model-sheet-broken-eraser.png`
-- 稳定参考副本：`assets/pencil-eraser-ip-design/lanbitou-poxiangpi-reference-v1.png`
+- v1 稳定参考副本：`assets/pencil-eraser-ip-design/lanbitou-poxiangpi-reference-v1.png`
+- v2 当前参考副本：`assets/pencil-eraser-ip-design/lanbitou-poxiangpi-reference-v2.png`
 
-下一版图像修正：
-
-- 将右下动作标签从“快散了”改为“裂开了”。
+v2 已将高压状态统一为“裂开了”，并补充“胶带粘回”的修复状态。
 
 ## 角色一：烂笔头
 
@@ -221,9 +220,9 @@
 - 不要让角色只是站在旁边。
 - 不要把概念讲成 PPT 信息图。
 
-## 下一步 Skill 改造方向
+## Skill 落地文件
 
-后续可以把这份设定拆成一个新的 Skill：
+这份设定已经落到 Figthus Skill 里：
 
 - `style-dna.md`：白底、手绘、残损文具、少量中文批注。
 - `ip-character.md`：烂笔头与破橡皮的人设、动作、禁忌。

@@ -25,7 +25,8 @@ Figthus 为中文文章设计和生成 16:9 横版正文配图。目标不是做
 - `references/composition-patterns.md`：认知动作、结构类型、原创隐喻方法。
 - `references/prompt-template.md`：单张生图和改图提示词模板。
 - `references/qa-checklist.md`：生成后检查和迭代规则。
-- `assets/reference/lanbitou-poxiangpi-reference-v1.png`：角色设定校准图，只校准形象，不复刻构图。
+- `assets/reference/lanbitou-poxiangpi-reference-v2.png`：角色设定校准图，只校准形象，不复刻构图。
+- `assets/examples/`：Figthus 原生正文插图样张，用于理解成品密度和动作表达，不要复刻构图。
 - `assets/legacy-xiaohei-examples/`：上游小黑项目遗留风格参考，只作来源/历史校准，不进入默认生成路径。
 
 ## 工作流

@@ -1,0 +1,55 @@
+{
+  "schema_version": "tplan.v0.1",
+  "mission": {
+    "id": "figthus-stage2-gallery",
+    "title": "Stage 2 - Native examples and release polish",
+    "objective": "Create and wire a Figthus-native editorial example gallery, refine reference assets, update public docs/prompts, and validate release readiness for issues #7-#11.",
+    "status": "active",
+    "human_in_loop": 0,
+    "risk_tolerance": 35,
+    "resource_sufficiency": 65,
+    "acceptance_evidence": [
+      {
+        "id": "AE1",
+        "description": "Figthus-native gallery has 4-6 finished 16:9 editorial illustrations in repo and no longer relies on the model sheet as the public example."
+      },
+      {
+        "id": "AE2",
+        "description": "README and examples/prompts show the native gallery and real Figthus usage patterns."
+      },
+      {
+        "id": "AE3",
+        "description": "Canonical model sheet/reference state is handled, including “裂开了” pressure wording and repair-state note or asset."
+      },
+      {
+        "id": "AE4",
+        "description": "Legacy Xiaohei provenance remains organized and is not marketed as Figthus-native."
+      },
+      {
+        "id": "AE5",
+        "description": "Release QA checks pass and issues #7-#11 can close."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "T1",
+      "parent_id": null,
+      "kind": "task",
+      "level": 1,
+      "title": "Execute Stage 2 gallery and release polish",
+      "status": "active",
+      "role": "success-critical",
+      "evidence_links": [],
+      "mission_contribution": "Generate native editorial examples, update documentation and references, verify release readiness, and close Stage 2 issues.",
+      "acceptance_evidence": [
+        "AE1",
+        "AE2",
+        "AE3",
+        "AE4",
+        "AE5"
+      ]
+    }
+  ],
+  "active_task_id": "T1"
+}

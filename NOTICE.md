@@ -12,6 +12,8 @@ Figthus adds a new visual IP direction centered on the recurring characters â€œç
 
 - `docs/ip-design/`
 - `assets/pencil-eraser-ip-design/`
+- `examples/images/`
+- `figthus/assets/examples/`
 - `figthus/assets/reference/`
 
 Retained upstream-origin assets are kept only for provenance or legacy calibration:
