@@ -87,10 +87,10 @@ Edit the provided image. Remove only the handwritten title "{要删除的文字}
 Edit the provided image. Replace only the handwritten label "{错误文字}" with "{正确文字}". Preserve the same small handwritten style, color, line quality, character positions, composition, and white background. Do not add any new objects.
 ```
 
-### 增强角色分工
+### 明确出场逻辑
 
 ```text
-Regenerate this illustration with the same core meaning and simple layout, but make the role split clearer: 烂笔头 should visibly create or push the first trace, while 破橡皮 should visibly correct, erase, check evidence, or stop the wrong path. Keep it sparse, white, hand-drawn, damaged, deadpan, and not cute.
+Regenerate this illustration with the same core meaning and simple layout, but make the character logic clearer. Use both characters only if both are doing distinct work. Otherwise keep only the character that owns the main cognitive action, and show the absent character's force through traces such as pencil lines, eraser dust, blank space, broken graphite, or an evidence slip. Keep it sparse, white, hand-drawn, damaged, deadpan, and not cute.
 ```
 
 ### 让破橡皮进入“裂开了”状态
