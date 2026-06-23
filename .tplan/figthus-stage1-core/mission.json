@@ -1,0 +1,55 @@
+{
+  "schema_version": "tplan.v0.1",
+  "mission": {
+    "id": "figthus-stage1-core",
+    "title": "Stage 1 - Figthus core conversion",
+    "objective": "Convert the fork into an installable Figthus Codex Skill with coherent package name, skill behavior, references, public docs, attribution, and QA checks for Stage 1 issues #1-#6.",
+    "status": "completed",
+    "human_in_loop": 0,
+    "risk_tolerance": 1,
+    "resource_sufficiency": 1,
+    "acceptance_evidence": [
+      {
+        "id": "AE1",
+        "description": "Installable skill package is renamed to figthus and invocation uses $figthus."
+      },
+      {
+        "id": "AE2",
+        "description": "SKILL.md and reference docs express the Figthus cognitive-anchor workflow and 烂笔头/破橡皮 IP system."
+      },
+      {
+        "id": "AE3",
+        "description": "README, examples, and agent config are rewritten for Figthus public usage."
+      },
+      {
+        "id": "AE4",
+        "description": "NOTICE and legacy surfaces preserve attribution without presenting upstream contact/branding as Figthus."
+      },
+      {
+        "id": "AE5",
+        "description": "Repo-wide grep and path checks show only intentional old-name/legacy mentions remain."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "T1",
+      "parent_id": null,
+      "kind": "task",
+      "level": 1,
+      "title": "Execute Stage 1 core conversion",
+      "status": "completed",
+      "role": "success-critical",
+      "evidence_links": [],
+      "mission_contribution": "Make all success-critical Stage 1 changes and verify acceptance evidence for issues #1-#6.",
+      "acceptance_evidence": [
+        "AE1",
+        "AE2",
+        "AE3",
+        "AE4",
+        "AE5"
+      ]
+    }
+  ],
+  "active_task_id": null
+}

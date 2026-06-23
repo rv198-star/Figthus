@@ -1,0 +1,6 @@
+interface:
+  display_name: "Figthus 配图"
+  short_description: "把中文文章里的认知动作转成烂笔头和破橡皮风格的正文配图资产"
+  default_prompt: "Use $figthus to 为这篇中文文章设计并生成几张 Figthus 正文配图。"
+policy:
+  allow_implicit_invocation: true
