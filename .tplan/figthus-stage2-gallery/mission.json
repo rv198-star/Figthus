@@ -4,7 +4,7 @@
     "id": "figthus-stage2-gallery",
     "title": "Stage 2 - Native examples and release polish",
     "objective": "Create and wire a Figthus-native editorial example gallery, refine reference assets, update public docs/prompts, and validate release readiness for issues #7-#11.",
-    "status": "active",
+    "status": "completed",
     "human_in_loop": 0,
     "risk_tolerance": 35,
     "resource_sufficiency": 65,
@@ -38,7 +38,7 @@
       "kind": "task",
       "level": 1,
       "title": "Execute Stage 2 gallery and release polish",
-      "status": "active",
+      "status": "completed",
       "role": "success-critical",
       "evidence_links": [],
       "mission_contribution": "Generate native editorial examples, update documentation and references, verify release readiness, and close Stage 2 issues.",
@@ -51,5 +51,5 @@
       ]
     }
   ],
-  "active_task_id": "T1"
+  "active_task_id": null
 }
